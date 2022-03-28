@@ -8,6 +8,7 @@ from ..models import User
 from ..utils import verify
 from ..oauth2 import create_acess_token
 
+
 router = APIRouter(tags=['Authentication'])
 
 
